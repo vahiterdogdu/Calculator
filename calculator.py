@@ -20,3 +20,5 @@ print(divide(10, 0))
 print(add(5, 3))
 print(subtract(10, 77))
 
+def power(a,b):
+    return a ** b
