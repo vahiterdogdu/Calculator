@@ -2,6 +2,9 @@ from calculator import add, subtract, multiply, divide, power
 
 def test_subtract():
     assert subtract(10, 4) == 6
+    assert subtract(5, 10) == -5
+    assert subtract(0, 0) == 0
+    assert subtract(-5, -5) == 0
 
 def test_multiply():
     assert multiply(5, 4) == 20
